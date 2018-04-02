@@ -4,7 +4,7 @@ import {createReducer, updateObject} from "../helpers";
 import {SET_MARKDOWN} from "../actions/types";
 
 const initialState = {
-    markdown: "sd",
+    markdown: "",
 };
 
 const setMarkdown = (state, {markdown}) => updateObject(state, {markdown});

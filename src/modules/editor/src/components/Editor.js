@@ -5,7 +5,7 @@ import "codemirror/lib/codemirror.css";
 import "codemirror/theme/monokai.css";
 import "codemirror/mode/markdown/markdown";
 import styled from "styled-components";
-import {markdown} from "markdown"
+import {markdown} from "markdown";
 
 const StyledCodeMirror = styled(CodeMirror)`
   width: 100%;
@@ -15,7 +15,7 @@ const StyledCodeMirror = styled(CodeMirror)`
     height: 100%;
     
     pre {
-        font-size: 1.2rem; 
+        font-size: 1.1rem; 
         font-family: Helvetica, sans-serif;
     }
   }
